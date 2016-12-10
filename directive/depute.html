@@ -1,0 +1,26 @@
+		<ul class="depute-product-list mtop20 clear">
+			<li class="depute-product" ng-repeat="depute in deputes">
+				<p class="depute-title">
+					<a href="list.html" >{{depute.title}}</a>
+				</p>
+				<ul class="product-info clear">
+					<li>
+						<strong class="num" >{{depute.money}}</strong><br>
+						<span class="explain">起投金额</span>
+					</li>
+					<li>
+						<strong class="num red" >{{depute.benifit}}</strong><br>
+						<span class="explain">预期年化收益</span>
+					</li>
+					<li>
+						<strong class="num " >{{depute.time}}</strong><br>
+						<span class="explain">交易期限</span>
+					</li>
+				</ul>
+				<ul class="product-detail clear">
+					<li>当日起息</li>
+					<li class="middle">质保服务专款</li>
+					<li>零费用加入</li>
+				</ul>
+			</li>
+		</ul>

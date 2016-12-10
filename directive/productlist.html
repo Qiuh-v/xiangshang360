@@ -1,0 +1,40 @@
+<div class="product-box" ng-repeat="opt in opts|orderBy:sortvalue">
+	<div>
+		<p class="product-title">{{opt.title}}</p>
+		<ul class="product-list clear">
+			<li>
+				<p class="product-detail">{{opt.expectedrate}}</p>
+				<p class="product-data red">{{opt.ratedata|persent}}</p>
+			</li>
+			<li>
+				<p class="product-detail">{{opt.deadline}}</p>
+				<p class="product-data">{{opt.deadlinedata}}</p>
+			</li>
+			<li>
+				<p class="product-detail">{{opt.valuedate}}</p>
+				<p class="product-data">{{opt.valuedatedata}}</p>
+			</li>
+			<li>
+				<p class="product-detail">{{opt.method}}</p>
+				<p class="product-data">{{opt.methoddata}}</p>
+			</li>
+			<li>
+				<p class="product-detail">{{opt.joincondition}}</p>
+				<p class="product-data">{{opt.joinconditiondata}}</p>
+			</li>
+			<li>
+				<p class="product-detail">{{opt.progress}}</p>
+				<p class="product-progress">
+					<span class="num">{{opt.progressdata}}</span>
+					<span class="process-span">
+								<span class="process-s"></span>
+					<s class="circle"></s>
+					</span>
+				</p>
+			</li>
+			<li>
+				<a href="#" class="join">立刻加入</a>
+			</li>
+		</ul>
+	</div>
+</div>

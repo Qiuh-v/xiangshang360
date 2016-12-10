@@ -1,0 +1,65 @@
+[
+	{
+		"title":"变变乐-双11可转项目集合1期",
+		"expectedrate":"预期年化收益率",
+		"ratedata":"0.165",
+		"deadline":"交易期限",
+		"deadlinedata":"70天",
+		"valuedate":"计息日",
+		"valuedatedata":"T+0",
+		"method":"退出方式",
+		"methoddata":"到期自动退出",
+		"joincondition":"加入条件",
+		"joinconditiondata":"1000元起",
+		"progress":"完成进度",
+		"progressdata":"0%"
+
+	},
+	{
+		"title":"变变乐-双11可转项目集合2期",
+		"expectedrate":"预期年化收益率",
+		"ratedata":"0.175",
+		"deadline":"交易期限",
+		"deadlinedata":"90天",
+		"valuedate":"计息日",
+		"valuedatedata":"T+0",
+		"method":"退出方式",
+		"methoddata":"到期自动退出",
+		"joincondition":"加入条件",
+		"joinconditiondata":"10000元起",
+		"progress":"完成进度",
+		"progressdata":"0%"
+
+	},
+	{
+		"title":"变变乐-双11可转项目集合3期",
+		"expectedrate":"预期年化收益率",
+		"ratedata":"0.065",
+		"deadline":"交易期限",
+		"deadlinedata":"30天",
+		"valuedate":"计息日",
+		"valuedatedata":"T+0",
+		"method":"退出方式",
+		"methoddata":"到期自动退出",
+		"joincondition":"加入条件",
+		"joinconditiondata":"10元起",
+		"progress":"完成进度",
+		"progressdata":"0%"
+
+	},
+	{
+		"title":"变变乐-双11可转项目集合4期",
+		"expectedrate":"预期年化收益率",
+		"ratedata":"0.075",
+		"deadline":"交易期限",
+		"deadlinedata":"80天",
+		"valuedate":"计息日",
+		"valuedatedata":"T+0",
+		"method":"退出方式",
+		"methoddata":"到期自动退出",
+		"joincondition":"加入条件",
+		"joinconditiondata":"100元起",
+		"progress":"完成进度",
+		"progressdata":"0%"
+	}
+]

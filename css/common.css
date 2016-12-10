@@ -1,0 +1,22 @@
+/*样式重置*/
+
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form { margin:0; }   
+ol,ul,input { margin:0; padding:0; }
+em { font-style:normal; }
+li { list-style: none; }
+textarea { overflow: auto;resize:none; }
+a { text-decoration: none;color: #333333; }
+a:hover { color: #38c2f0; }
+img { border: none;vertical-align: top; }
+input,textarea { outline: none; }
+body { font-size: 12px;font-family: "微软雅黑" ;line-height: 1;}
+
+/*public*/
+
+.clear { zoom:1; }
+.clear:after { content:'';clear: both;display: block; }
+.fl { float: left; }
+.fr { float: right; }
+
+.common { width: 1000px; margin: 0 auto; }
+.mtop20 { margin-top: 20px; }

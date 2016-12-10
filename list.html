@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+<meta charset="utf-8" />
+<title>列表页</title>
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script src="js/angular.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/base.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/list.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body ng-controller="baseCtrl">
+<div headerdir></div>
+<div class="filter" ng-controller="productlist">
+	<div class="route common">
+		首页>我要理财-委托投标
+	</div>
+	<div class="select" selectuichange>
+		<div class="wrap-select common">
+			<div class="clear">
+				<div class="select-title fl">理财产品：</div>
+				<ul class="fl clear">
+					<li class="active">全部</li>
+					<li>今日推荐</li>
+					<li>新用户</li>
+					<li>向上冲</li>
+					<li>月月生息</li>
+					<li>满额加息</li>
+					<li>随机加息</li>
+					<li>会员专享</li>
+				</ul>
+			</div>
+			<div class="clear">
+				<div class="select-title fl">交易期限：</div>
+				<ul class="fl clear">
+					<li class="active">全部</li>
+					<li>1--30天</li>
+					<li>31--60天</li>
+					<li>61--90天</li>
+					<li>91--180天</li>
+					<li>180天以上</li>
+				</ul>
+			</div>
+			<div class="clear">
+				<div class="select-title fl">预期年化：</div>
+				<ul class="fl clear">
+					<li ng-click="changerate(0,100)" class="active">全部</li>
+					<li ng-click="changerate(0,6)">6%以下</li>
+					<li ng-click="changerate(6,8)">6~8%</li>
+					<li ng-click="changerate(8,10)">8~10%</li>
+					<li ng-click="changerate(10,100)">10%以上</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<div class="product common" >
+		<div class="sort" sortuichange>
+			<span class="active" ng-click="changesortvalue('title')">默认排序</span>
+			<span ng-click="changesortvalue('deadlinedata')">交易期限</span>
+			<span ng-click="changesortvalue('ratedata')">年化收益</span>
+		</div>
+		<!--引入组件-->
+		<div productdir ></div>
+		
+	</div>
+</div>
+<div footerdir></div>
+
+<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
