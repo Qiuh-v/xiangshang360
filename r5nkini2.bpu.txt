@@ -1,0 +1,15 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i or -o; assuming --only paths...
+# On branch gh-pages
+# Your branch is up-to-date with 'origin/gh-pages'.
+#
+# Changes to be committed:
+#	deleted:    index.html
+#	deleted:    params.json
+#	deleted:    stylesheets/github-light.css
+#	deleted:    stylesheets/normalize.css
+#	deleted:    stylesheets/stylesheet.css
+#
+
